@@ -1,5 +1,5 @@
 " This is the path that you want NERDTree to initially display
-let g:startDir = '~/Sites/Playerize/surveys'
+let g:startDir = '~/Sites'
 
 let mapleader=","
 
@@ -17,14 +17,18 @@ autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 let g:phpcomplete_index_composer_command = "composer"
 
-let g:vdebug_options = {
-\   'path_maps': {
-\    '/home/vagrant/perk-tv-api': '/Users/thomasveilleux/Sites/Github/perk-tv-api',
-\    '/home/vagrant/api': '/Users/thomasveilleux/Sites/Github/api',
-\    '/srv/prod/kitn' : '/Users/thomasveilleux/Sites/Playerize/superrewards',
-\    '/srv/prod/kitn/www/live/srwallfront' : '/Users/thomasveilleux/Sites/Playerize/sr-wallfront',
-\   '/home/vagrant/surveys': '/Users/thomasveilleux/Sites/Playerize/surveys'
-\   },
-\ }
+"let g:vdebug_options = {
+"
+"\   'path_maps': {
+"\    '/home/vagrant/perk-tv-api': '/Users/thomasveilleux/Sites/Github/perk-tv-api',
+"\    '/home/vagrant/api': '/Users/thomasveilleux/Sites/Github/api',
+"\    '/srv/prod/kitn' : '/Users/thomasveilleux/Sites/Playerize/superrewards',
+"\    '/srv/prod/kitn/www/live/srwallfront' : '/Users/thomasveilleux/Sites/Playerize/sr-wallfront',
+"\   '/home/vagrant/surveys': '/Users/thomasveilleux/Sites/Playerize/surveys'
+"\   },
+"\ }
+"
+"
+
 
 let g:gist_post_private = 1
